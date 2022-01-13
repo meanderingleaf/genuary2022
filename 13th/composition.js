@@ -3,7 +3,7 @@ let ticles = [];
 let c1, c2;
 
 function setup() {
-  createCanvas(800, 80);
+  createCanvas(800, 81);
   angleMode(DEGREES);
 
   c1 = color(27, 24, 133);
