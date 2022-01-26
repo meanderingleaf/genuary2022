@@ -5,7 +5,7 @@ function setup() {
   createCanvas(1200, 722);
   angleMode(DEGREES);
 
-  c1 = color(27, 24, 200);
+  c1 = color(0);
   c2 = color(3, 177, 252);
   stroke(255);
 
@@ -33,7 +33,7 @@ function draw() {
         c = color(255, 246, 209);
         c.setAlpha( 10 );
         fill(c);
-        strokeWeight(2);
+       // strokeWeight(2);
         
         circle(x*20 + nn, e*25 + nn, e*4 );
       } else if(n > .3) {
